@@ -3,7 +3,7 @@ import React from 'react'
 const Box = (props) => {
     //승,패 유저와 컴퓨터가 반대로
     let result ;
-    if(props.title == 'Computer' && props.result !=='tie' && props.result !==''){
+    if(props.title === 'Computer' && props.result !=='tie' && props.result !==''){
         //컴퓨터, 비기지 않았고, 결과값이 비어있지 않을 때 
         result = props.result === 'win' ? 'lose' : 'win';
         //내 승리여부가 승리일 경우 result는 '패배...', 아닐 경우 '승리!'
