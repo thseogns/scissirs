@@ -54,11 +54,11 @@ function App() {
       유저 == paper, 컴퓨터 == rock : 유저 win
       유저 == paper, 컴퓨터 == scissors : 유저 lose
     */
-    if (user.name == com.name) {
+    if (user.name === com.name) {
       return 'tie';
-    } else if (user.name == 'Rock') return com.name == 'Scissors' ? 'win' : 'lose' ;
-    else if (user.name == 'Scissors') return com.name == 'Paper' ? 'win' : 'lose' ;
-    else if (user.name == 'Paper') return com.name == 'Rock' ? 'win' : 'lose' ;    
+    } else if (user.name === 'Rock') return com.name === 'Scissors' ? 'win' : 'lose' ;
+    else if (user.name === 'Scissors') return com.name === 'Paper' ? 'win' : 'lose' ;
+    else if (user.name === 'Paper') return com.name === 'Rock' ? 'win' : 'lose' ;    
 
   }
 
