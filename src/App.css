@@ -1,0 +1,45 @@
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  margin: 20px;
+  width: 500px;
+  height: 600px;
+  border: 10px solid #ccc;
+  text-align: center;
+  min-width: 250px;
+}
+
+.item-img {
+  max-width: 80%;
+}
+button{
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 15px 20px;
+  background-color: darkorange;
+  color: #fff;
+}
+
+.win{
+  border: 10px solid seagreen;
+  color: seagreen;  
+}
+.win h2 {
+  text-transform: uppercase;
+}
+.lose{
+  border: 10px solid sienna;
+  color: #ccc;
+}
+.tie{}
+
+.resultP{
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
